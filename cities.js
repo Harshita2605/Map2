@@ -10,8 +10,8 @@ function dhan(indic, flag, mapx) {
     //gtype = Dhan_Grid_type;
 
     let k = 0;
-    for (let i = 0; i < 55; i++)
-        for (let j = 0; j < 44; j++) {
+    for (let i = 0; i < 54; i++)
+        for (let j = 0; j < 43; j++) {
             setCoords({
                 properties: {
                     lat: 23.63 + 0.01 * j, //Grid_Coodinates[0]
